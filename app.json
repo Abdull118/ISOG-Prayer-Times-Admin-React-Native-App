@@ -4,10 +4,10 @@
     "slug": "ISOG-Admin",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/isog2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/isog2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/isog2.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abdull118.ISOGAdmin"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/isog2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d69fc453-2b7b-4711-8022-9f00a845caa4"
+      }
     }
   }
 }
